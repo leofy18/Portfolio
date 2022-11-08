@@ -690,37 +690,7 @@ header .navbar-brand b {
 .language-skill ul li i{
   font-size: 12px;
 }
-/*------------------------- Services -------------------------*/
-.services-box {
-  margin: 16px 0;
-}
-.services .box {
-  padding: 1rem 0;
-  text-align: left;
-  position: relative;
-}
-.boxes [class^="col-"] {
-  position: relative;
-}
-.boxes [class^="col-"]::after{
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 1px;
-}
-.boxes [class^="col-"]:nth-last-child(-n+2)::after{
-  display: none;
-}
-.services .services-icon {
-  font-size: 36px;
-  display: inline-block;
-}
-.services .services-box img{
-  width: 45px;
-  margin-bottom: 12px;
-}
+
 /*------------------------- RESUME -------------------------*/
 .resume h3 i {
   padding-right: 0.75rem;
